@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ShowIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_my_school"
+            android:icon="@drawable/ic_others_24dp"
+            android:title="My School"/>
+        <item android:id="@+id/nav_calender"
+            android:icon="@drawable/ic_calender_24dp"
+            android:title="Calender"/>
+        <item android:id="@+id/nav_message"
+            android:icon="@drawable/ic_message_24dp"
+            android:title="Messages"/>
+        <item android:id="@+id/nav_feesbook"
+            android:icon="@drawable/ic_feesbook_24dp"
+            android:title="Fees Book"/>
+        <item android:id="@+id/nav_emergency"
+            android:icon="@drawable/ic_emergency_24dp"
+            android:title="Emergency"/>
+        <item android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_clear_black_24dp"
+            android:title="Log Out"/>
+    </group>
+</menu>
