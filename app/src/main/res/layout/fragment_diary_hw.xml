@@ -4,22 +4,10 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/nav_diary"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="false"
-        android:background="@android:color/darker_gray"
-        app:menu="@menu/diary_navigation"
-        app:itemTextColor="#000"
-        app:itemIconTint="#000"
-        app:itemIconSize="50dp"/>
-
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/nav_diary"
         android:orientation="vertical"
         android:layout_marginTop="20dp">
 

@@ -27,7 +27,7 @@ public class DiaryFragment extends Fragment {
 
         //topNav.setSelectedItemId(R.id.nav_diary_hw);
 
-        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new DiaryFragmentHW()).commit();
+        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.d_fragment_container, new DiaryFragmentHW()).commit();
         BottomNavigationView topNav = v.findViewById(R.id.nav_diary);
         topNav.setOnNavigationItemSelectedListener(navListener);
         topNav.getMenu().findItem(R.id.nav_diary_hw).setChecked(true);
@@ -49,7 +49,7 @@ public class DiaryFragment extends Fragment {
                         case R.id.nav_diary_hw:
                             Toast.makeText(getActivity(), "Homework.", Toast.LENGTH_LONG)
                                     .show();
-                            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new DiaryFragmentHW()).commit();
+                            getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.d_fragment_container, new DiaryFragmentHW()).commit();
                             break;
                     }
 

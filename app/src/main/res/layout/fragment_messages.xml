@@ -20,4 +20,22 @@
         android:layout_centerInParent="true"
         android:paddingTop="120dp"/>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/msg"/>
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_send_black_24dp"
+            android:tint="@color/darkOrange"
+            android:backgroundTint="#fff"
+            />
+    </LinearLayout>
+
 </RelativeLayout>

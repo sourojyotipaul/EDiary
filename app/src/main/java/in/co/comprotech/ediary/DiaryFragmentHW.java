@@ -15,7 +15,10 @@ import android.widget.Toast;
 public class DiaryFragmentHW extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_diary_hw,container,false);
+        View v = inflater.inflate(R.layout.fragment_diary_hw,container,false);
+
+
+        return v;
     }
 
 }

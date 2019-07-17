@@ -1,23 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ImageView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn_about"
+        android:text="About"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_others_24dp"
-        android:minHeight="100dp"
-        android:minWidth="100dp"
-        android:layout_centerInParent="true"
-        android:tint="@color/darkBlue"/>
-    <TextView
-        android:layout_width="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_prospects"
+        android:text="Prospects"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="My School"
-        android:textColor="@color/darkBlue"
-        android:textSize="30dp"
-        android:layout_centerInParent="true"
-        android:paddingTop="120dp" />
+        android:background="@drawable/buttonshape2"
+        android:layout_below="@id/btn_about"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <Button
+        android:id="@+id/btn_mission"
+        android:text="Our Mission"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:layout_below="@id/btn_prospects"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
+        />
+
+    <Button
+        android:id="@+id/btn_vision"
+        android:text="Our Vision"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape2"
+        android:layout_below="@id/btn_mission"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <Button
+        android:id="@+id/btn_prayer"
+        android:text="School Prayer"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:layout_below="@id/btn_vision"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
+        />
 
 </RelativeLayout>

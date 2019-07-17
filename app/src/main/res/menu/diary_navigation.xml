@@ -3,11 +3,18 @@
 
     <item android:id="@+id/nav_diary_hw"
         android:title="Homework"
-        android:iconTint="#000"/>
+        android:iconTint="#000"
+        android:icon="@drawable/ic_home_black_24dp"/>
 
     <item android:id="@+id/nav_diary_cw"
         android:title="Classwork"
+        android:icon="@drawable/ic_school_black_24dp"
         android:iconTint="#000"/>
+
+    <item android:id="@+id/nav_diary_search"
+        android:iconTint="#000"
+        android:title="Search"
+        android:icon="@drawable/ic_calender_24dp" />
 
 
 
